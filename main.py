@@ -74,8 +74,8 @@ def main():
     ]
 
     output = Power_Iterate(rules, {
-        "training_dataset": pd.read_csv("train.csv"),
-        "testing_dataset": pd.read_csv("test.csv"),
+        "training_dataset": pd.read_csv("inputs/train.csv"),
+        "testing_dataset": pd.read_csv("inputs/test.csv"),
 
         "number_of_epochs": 5,
         "activation_function": "relu",
